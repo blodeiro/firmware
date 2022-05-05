@@ -1,9 +1,9 @@
 #include "firmware.h"
 #include <gtest/gtest.h>
  
-TEST(SumaTest, IntNums) 
+TEST(DegTest, DegTest) 
     { 
-    ASSERT_EQ(6, suma(2,4));
+    ASSERT_EQ(102.4, pulsesToDegrees(9));
     }
  
 int main(int argc, char **argv) 

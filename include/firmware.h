@@ -1,1 +1,1 @@
-int suma(int, int);
+double pulsesToDegrees(int);

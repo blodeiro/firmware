@@ -1,6 +1,6 @@
 #include "firmware.h"
 
-int suma(int a, int b)
+double pulsesToDegrees(int pulses)
 {
-    return a + b;
+    return double(pulses) * 4096 / 360;
 }
